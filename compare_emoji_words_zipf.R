@@ -13,10 +13,12 @@ if (!suppressPackageStartupMessages(require("pacman"))) { install.packages("pacm
 
 pacman::p_load(tidyverse, 
                reshape2, 
+               psych,
                wesanderson) } else{
                  #if you said no thanks to installing pkgs, I'll just try and load 'em as best I can
                  library(tidyverse)
                  library(reshape2)
+                 library(psych)
                  library(wesanderson)
                }
 
